@@ -3,15 +3,26 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Privacy Policy — Farkle Keepr</title>
+<title>Privacy Policy — FarkleKeepr</title>
 <style>
   :root {
+    color-scheme: light dark;
     --ink: #1c1f1d;
     --muted: #5b625c;
     --line: #e3e7e3;
     --accent: #2f7a4f;
     --bg: #fbfaf7;
     --card: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ink: #eef1ec;
+      --muted: #9aa79c;
+      --line: #2a2f2b;
+      --accent: #5bc088;
+      --bg: #121412;
+      --card: #1a1d1a;
+    }
   }
   * { box-sizing: border-box; }
   body {
@@ -77,6 +88,8 @@
     color: var(--muted);
     font-size: 13px;
   }
+  footer a { color: var(--muted); text-decoration: underline; text-underline-offset: 2px; }
+  footer .sep { margin: 0 8px; }
   @media (max-width: 480px) {
     .wrap { padding: 40px 18px 72px; }
     h1 { font-size: 28px; }
@@ -87,12 +100,12 @@
 <div class="wrap">
 
   <header>
-    <span class="eyebrow">Farkle Keepr</span>
+    <span class="eyebrow">FarkleKeepr</span>
     <h1>Privacy Policy</h1>
     <p class="effective-date">Effective date: July 27, 2026</p>
   </header>
 
-  <p>Farkle Keepr is a scorekeeping app for the dice game Farkle. This policy explains what information we collect, why we collect it, and how it's handled. We built Farkle Keepr to keep score, not to track you — there's no advertising in the app, and we don't sell or share your data with data brokers or ad networks.</p>
+  <p>FarkleKeepr is a scorekeeping app for the dice game Farkle. This policy explains what information we collect, why we collect it, and how it's handled. We built FarkleKeepr to keep score, not to track you — there's no advertising in the app, and we don't sell or share your data with data brokers or ad networks.</p>
 
   <h2>Information We Collect</h2>
   <p>To let you sign into your account and keep your game history synced across devices, we collect:</p>
@@ -125,13 +138,13 @@
   </div>
 
   <h2>In-App Purchases</h2>
-  <p>Farkle Keepr offers an optional, one-time Premium Edition Upgrade. It's a single purchase — not a subscription — and unlocks features like custom game codes, cross-device shared history, and additional themes and icons. Purchase and payment information is handled entirely by Apple; we only receive confirmation that a purchase was completed.</p>
+  <p>FarkleKeepr offers an optional, one-time Premium Edition Upgrade. It's a single purchase — not a subscription — and unlocks features like custom game codes, cross-device shared history, and additional themes and icons. Purchase and payment information is handled entirely by Apple; we only receive confirmation that a purchase was completed.</p>
 
   <h2>Data Retention & Your Choices</h2>
   <p>We keep your account information for as long as your account is active. If you'd like your account and associated data deleted, contact us using the information below and we'll take care of it.</p>
 
   <h2>Children's Privacy</h2>
-  <p>Farkle Keepr is not directed at children under 13, and we do not knowingly collect personal information from children under 13. If you believe a child has provided us with personal information, please contact us so we can remove it.</p>
+  <p>FarkleKeepr is not directed at children under 13, and we do not knowingly collect personal information from children under 13. If you believe a child has provided us with personal information, please contact us so we can remove it.</p>
 
   <h2>Security</h2>
   <p>We rely on industry-standard security practices provided by our infrastructure partners (including encryption in transit) to help protect your information. No method of storage or transmission is 100% secure, but we work to keep your data safe.</p>
@@ -143,7 +156,9 @@
   <p>Questions about this policy, or want to request that your data be deleted? Reach out at <a href="mailto:privacy@farklekeepr.com">privacy@farklekeepr.com</a>.</p>
 
   <footer>
-    © 2026 Farkle Keepr. All rights reserved.
+    © 2026 FarkleKeepr. All rights reserved.
+    <span class="sep">·</span>
+    <a href="https://farklekeepr.com">Support</a>
   </footer>
 
 </div>
